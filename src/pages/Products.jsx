@@ -34,6 +34,7 @@ export default function Products() {
     <div className="page-container" style={{ paddingTop: '120px' }}>
       {/* ── HEADER ── */}
       <div className="page-header">
+        <Link to="/" className="back-home">← Back to Home</Link>
         <div className="section-label">Shop</div>
         <h1 className="arrivals-title">
           {cat === 'all' ? 'All Collections' : <><em>{cat.charAt(0).toUpperCase() + cat.slice(1)}</em></>}
